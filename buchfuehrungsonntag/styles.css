@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #dbd7d7;
+    text-align: center;
+}
+
+
+
+    h5 {
+        font-size: 15px;
+        font-weight: bold;
+        color: #8989d5; /* Dunkler Grauton */
+        margin-bottom: 10px;
+        border-bottom: 2px solid #8d9ac9; /* Hellblau */
+        padding-bottom: 5px;
+    }
+
+
+
+.account {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 2px solid #dcdcdc; /* Helle Linie */
+}
+
+.balance {
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #007e00; /* Hellgrün */
+}
+
+button {
+    padding: 10px 16px; /* Kleinere Button-Abmessungen */
+    font-size: 16px;
+    background-color: #8d9ac9; /* Hellblau */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #8b9ac5; /* Dunkleres Hellblau */
+}
+
+@media screen and (max-width: 600px) {
+    .account {
+        max-width: 100%;
+    }
+}
+
+#buchungstext5 {
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #f2f2f2;
+    border: 2px solid #ccc; /* Hellgrau */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
